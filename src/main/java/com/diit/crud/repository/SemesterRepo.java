@@ -1,12 +1,9 @@
 package com.diit.crud.repository;
 
+import com.diit.crud.model.Semester;
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.diit.crud.model.Student;
-import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface StudentRepo extends JpaRepository<Student, Integer>{
-
+public interface SemesterRepo extends JpaRepository<Semester,Integer> {
 }
